@@ -25,5 +25,15 @@ public class EventServiceImpl implements EventService {
         return eventRepository.searchEvents(text);
     }
 
+    @Override
+    public List<Event> searchByScore(double searchScore) {
+        return null;
+    }
+
+    @Override
+    public List<Event> searchByNameAndScore(String searchText, double searchScore) {
+        return null;
+    }
+
 
 }
